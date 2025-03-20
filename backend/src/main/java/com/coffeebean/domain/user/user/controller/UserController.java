@@ -135,7 +135,7 @@ public class UserController {
         String email = credentials.get("email");
         String password = credentials.get("password");
 
-        Map<String, String> loginResult = userService.loginUser(email, password, response); // ✅ 사용자 이름과 토큰 반환
+        Map<String, String> loginResult = userService.loginUser(email, password, response); // 사용자 이름과 토큰 반환
         String message = String.format("%s님 반갑습니다.", loginResult.get("userName"));
         String token = loginResult.get("token");
 
