@@ -2,7 +2,7 @@
 name: "\U0001F41BBug"
 about: 버그 발생시 사용하는 템플릿입니다.
 title: "[BUG]"
-labels: ''
+labels: "\U0001F41Bbug"
 assignees: ''
 
 ---
@@ -15,6 +15,9 @@ assignees: ''
 
 ## 💡 예상 결과
 > 예상했던 정상적인 결과가 어떤 것이었는지 설명해주세요
+
+## 🔗 Related Issues 
+[이슈 제목](이슈 링크)
 
 ## 🏷️ 참고할만한 자료(선택)
 
